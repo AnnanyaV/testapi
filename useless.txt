@@ -1,0 +1,12 @@
+# @app.route('/')
+# def home():
+    # connection= pymysql.connect(
+    #     host='localhost',
+    #     user='root',
+    #     password='annani@1997',
+    #     db='testapi',
+    #     cursorclass=pymysql.cursors.DictCursor)
+    # mycursor=connection.cursor()
+    # mycursor.execute('select * from testapi.emp')
+    # return str(mycursor.fetchall())
+    # return 'Hello World'
