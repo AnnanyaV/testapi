@@ -58,14 +58,3 @@ class Emp(Resource):
         except:
             return {"message": "There was an error inserting into emp table"}, 500
         return {"message": "Success"}, 201
-
-class User():
-    def __init__(eno, ename, pass):
-        self.eno=eno
-        self.ename=ename
-        self.pass=pass
-
-    @classmethod
-    def GetUserByEno():
-        
-class EmpLogin(Resource):
